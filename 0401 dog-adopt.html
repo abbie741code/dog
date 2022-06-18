@@ -36,7 +36,7 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
 
-    <!-- kate here -->
+
 
     <style>
         * {
@@ -134,7 +134,10 @@
             line-height: normal;
         }
 
-
+        .banner-btn {
+            margin: 0 auto;
+            text-align: center;
+        }
 
 
 
@@ -151,7 +154,7 @@
             background-color: #d2c4b3;
             height: auto;
             border-radius: 10%;
-            margin: 10px;
+            margin: 20px 5px 20px;
 
 
         }
@@ -164,9 +167,8 @@
             background-position: center;
             /* background-repeat: no-repeat; */
             background-repeat: no-repeat;
-
-
         }
+        
 
         .card-img-wrap {
             width: 100%;
@@ -184,11 +186,17 @@
 
 
         }
+        .card-img-wrap img:hover{
+            opacity: .5;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            }
 
         .card-img-wrap img {
             border-radius: 10%;
 
         }
+        
 
         .card-body {
             padding: 2%;
@@ -216,6 +224,12 @@
         .btn-hovercolor {
             color: #fff;
             background-color: #D4BAAD;
+
+        }
+
+        .carousel-control-prev{
+            top:50%;
+            border: none;
 
         }
 
@@ -266,6 +280,7 @@
         .bigbannerwidth {
             background-color: #edebe9;
             width: 100%;
+           
         }
 
         .banner-pic {
@@ -304,13 +319,17 @@
         .container-for-carousell {
             width: 80%;
             /* height: 900px; */
-            margin: auto;
+            margin:  auto;
+            
             /* border: rgb(235, 202, 16) solid 1px; */
+            
 
         }
 
         .section3-card {
             width: 100%;
+            margin: 30px auto 30px;
+
         }
 
 
@@ -318,6 +337,9 @@
             width: 100%;
             overflow: hidden;
             border-radius: 10%;
+        }
+        .img-wrap:hover{
+            transform: rotate(10deg);
         }
 
         .text-h-wrap {
@@ -352,7 +374,21 @@
             font-size: 38px;
         }
 
+        .carousel-control-next{
+            top:50%;
+            bottom:0;
+            border: none;
+            color: #a79696;
+            opacity: 0.5;
+        }
 
+        .carousel-caption{
+            top:40px;
+            color:#000
+        }
+        .carousel-caption h5{
+            font-size: 25px;
+        }
 
 
 
@@ -371,6 +407,7 @@
         .row2 {
             display: flex;
             flex-wrap: wrap;
+            z-index: 99;
 
         }
 
@@ -379,6 +416,8 @@
             font-family: 'Noto Sans TC', sans-serif;
             font-size: 28px;
             display: flex;
+            flex-direction: column;
+            align-items: center;
             top: 0;
             max-width: 1600px;
             width: 100%;
@@ -391,20 +430,30 @@
             color: rgb(56, 38, 38);
         }
 
+        .nav-bar2 a:hover {
+            text-decoration: none;
+        }
+
         .nav-center-content2 {
             display: flex;
+            flex-direction: column;
             width: 70%;
             align-items: center;
             justify-content: space-evenly;
+           margin: 20px;
 
+        }
+
+        .nav-center-content2 a {
+            border-bottom: 1px solid;
         }
 
         .nav-right-content2 {
             display: flex;
+            flex-direction: column;
             width: 20%;
-            align-items: center;
             justify-content: space-evenly;
-            padding: 5px 0px;
+            padding: 15px 0px;
         }
 
 
@@ -419,9 +468,24 @@
 
             /* 🌟要包在這層才對 不然內容會都無法顯現 */
             .row2 {
-                display: none;
+                /* display: none; */
+                position: fixed;
+                top: 0;
+                right: 0;
+                background-color: #a79696;
+                height: 100%;
+                width: 200px;
+                z-index: 99;
+            }
 
-
+            .nav-mask {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height:1500%;
+                background-color: #000;
+                opacity: 0.8;
+                z-index: 98;
             }
 
             .phone-nav {
@@ -453,6 +517,14 @@
                 padding-right: auto;
                 font-family: 'Noto Sans TC', sans-serif
             }
+            .bannerwithdog:hover {
+                background-image: url(./images/image1.png), url(./images/image2.png), url(./images/image3.png), url(./images/0328-bacjground\ color\ psd.png);
+                background-position: 10% 75%, center 75%, 89% 75%, center center;
+                background-size: 30%, 30%, 30%, auto;
+                background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+
+
+            }
 
         }
 
@@ -464,7 +536,15 @@
                 width: 100%;
                 margin: auto;
             }
-
+/* 
+            .nav-mask {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height:100%;
+                background-color: #000;
+                opacity: 0.8;
+            } */
 
             .row {
                 width: 100%;
@@ -482,6 +562,7 @@
             .nav-width {
                 width: 100%;
             }
+            
 
             /* ------第三頁--------- */
             .container-for-carousell {
@@ -524,6 +605,7 @@
     <!--------------網頁版的nav------------->
 
     <div class="container-fluidinweb web-nav">
+        <div class="nav-mask"></div>
         <div class="row2">
             <div class="col-12">
                 <div class="nav-bar2 justify-content-between2">
@@ -763,12 +845,15 @@
         </div>
     </div>
 
-
-
-
-
-
-
+    <script>
+        document.querySelector(".container-fluidinweb").style.display = "none";
+        document.querySelector(".nav-right").addEventListener("click", () => {
+            document.querySelector(".container-fluidinweb").style.display = "flex";
+        });
+        document.querySelector(".nav-mask").addEventListener("click", () => {
+            document.querySelector(".container-fluidinweb").style.display = "none";
+        });
+    </script>
 </body>
 
 </html>
