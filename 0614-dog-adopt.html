@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6/15</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog-adopt</title>
+    <!-- 套用fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- 套用bs -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- 套用 google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700;900&family=Roboto:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- title套用 favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- 輪播牆 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/ON_FIRE.css">
+
+    <style>
+        * {
+            outline: 1px rgb(121, 46, 46) solid;
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        body {
+            /* min-width: 375px; */
+            outline: 5px rgb(205, 201, 91) solid;
+            
+       
+        }
+        
+        .item-group{
+            width: 80%;
+            max-width: 1400px;
+            outline: 5px rgb(21, 20, 11) solid;
+            margin: auto;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .title{
+            outline: 1px rgb(211, 20, 20) solid;
+            margin:20px;
+            background-color: #ccc;
+            
+
+        }
+
+        .title h2 {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .title p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .item {
+            margin: 0 10px 20px;
+        }
+
+        .item .pic img {
+            width: 100%;
+        
+        }
+
+        /* .item-group{
+            display: flex;
+        } */
+
+        .item-group h3{
+            text-align: center;
+        }
+        .footer{
+            background: rgb(206, 193, 193);
+            color:black;
+            text-align: center;
+            padding: 20px;
+        
+        }
+
+        @media screen and (min-width:768px) {
+            .item-group{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .item{
+                width: 30%;
+            }
+
+
+            .service .item{
+                display: flex;
+            }
+            .service .item .pic,
+            .service .item .text{
+                width: 50%;
+                margin: 0;
+            }
+            .service .item .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="/images/0330-backgound pic page01.png" alt="">
+    </div>
+
+    <div class="about-me">
+        <div class="wrap">
+            <div class="title">
+                <h2>about us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi expedita sapiente soluta eius, earum
+                    praesentium distinctio quisquam reiciendis ab modi obcaecati voluptatibus doloremque quas autem
+                    veritatis omnis culpa ipsum perferendis!</p>
+            </div>
+
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="service">
+        <div class="wrap">
+            <div class="title"></div>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about-me">
+        <div class="wrap">
+            <div class="title"></div>
+            <h2>about us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi expedita sapiente soluta eius, earum
+                praesentium distinctio quisquam reiciendis ab modi obcaecati voluptatibus doloremque quas autem
+                veritatis omnis culpa ipsum perferendis!</p>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲2.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲2.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="./images/珍妮絲2.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus minima officiis
+                            eligendi a rem quam debitis deleniti, mollitia numquam non ipsum labore natus quis eos nobis
+                            sed
+                            facere ex.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; copyright 2022 by abbie
+    </div>
+
+
+</body>
+
+</html>

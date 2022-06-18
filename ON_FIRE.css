@@ -1,0 +1,368 @@
+/* html內需先引用 */
+/* 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Sans:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/ON_FIRE.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
+*/
+div,p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+.content{
+    position: relative;
+    z-index: 8;
+}
+
+.right-content{
+    position: relative;
+    z-index: 7;
+}
+.pc-sign-title-20{
+    font-family:'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+}
+.pc-sign-text-16{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+}
+.phone-sign-title-15{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0px;
+    letter-spacing: 1px;
+}
+.phone-sign-text-14{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+}
+.pc-title-32{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.pc-middle-title-20{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.pc-small-title-16{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+}
+.pc-regular-text-16{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+.pc-hint-14{
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+}
+.pc-tag-12{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.phone-title-28{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.phone-middle-title-20{
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.phone-small-tile-16{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.phone-text-14{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.phone-option-12{
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+.phone-small-text-12{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2.5px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    margin: 10px;
+}
+.boxx{
+    width: 1000px;
+    padding: 20px;
+}
+.linear-orange{
+    background: linear-gradient(226.02deg, #FFDA93 4.21%, #F56638 99.47%);
+}
+.linear-purple{
+    background: linear-gradient(226.02deg, #FF67F9 4.21%, #5338F5 99.47%);
+}
+.box-gray{
+    background: rgba(44, 44, 44, 0.4);
+}
+.box-white{
+    background: rgba(255, 255, 255, 0.3);
+}
+.nav-blue{
+    background: #09005F;
+}
+.text-pink{
+    color:#F4EDED;
+}
+.text-hint{
+    color:#AFAFAF;
+}
+.text-blue{
+    color:#240173;
+}
+.text-linear-orange{
+    background: linear-gradient(45deg, #F66F40, #FFD38D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.text-linear-purple{
+    background: linear-gradient(226.02deg, #FF67F9 4.21%, #5338F5 99.47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.m-tag{
+    margin: 3px 14px;
+}
+.btn-pc-orange{
+    border:0;
+    width: max-content;
+    padding: 3px 22px;
+    border-radius: 20px;
+    height: 30px;
+    color:#240173;
+    background: linear-gradient(226.02deg, #FFDA93 4.21%, #F56638 99.47%);
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-pc-big-orange{
+    border:0;
+    width: max-content;
+    padding: 6px 35px;
+    border-radius: 20px;
+    height: 36px;
+    color:#240173;
+    background: linear-gradient(226.02deg, #FFDA93 4.21%, #F56638 99.47%);
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-pc-white{
+    border:0;
+    width: max-content;
+    padding: 3px 22px;
+    border-radius: 20px;
+    height: 30px;
+    color:#F4EDED;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-pc-sign-white{
+    border:0;
+    width: max-content;
+    padding: 6px 35px;
+    border-radius: 20px;
+    height: 36px;
+    color:#09005F;
+    background: #F4EDED;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-pc-big-white{
+    width: max-content;
+    padding: 6px 35px;
+    border-radius: 20px;
+    height: 36px;
+    color:#F4EDED;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-pc-purple{
+    width: max-content;
+    padding: 13px 15px;
+    border-radius: 8px;
+    height: 41px;
+    color:#F4EDED;
+    background: linear-gradient(226.02deg, #FF67F9 4.21%, #5338F5 99.47%);
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-pc-purple:hover, .btn-phone-purple:hover{
+    background: linear-gradient(223.63deg, #FF67F9 -9%, #3300FF 84.27%);
+    /* background: #FF67F9; */
+}
+.btn-pc-big-orange:hover, .btn-pc-orange:hover, .btn-phone-orange:hover, .btn-phone-big-orange:hover{
+    color:#F4EDED;
+    background: linear-gradient(262.71deg, #FDBC44 -19.11%, #EA3A00 125.42%);
+}
+.btn-pc-big-white:hover, .btn-pc-white:hover, .btn-phone-white:hover, .btn-phone-big-white:hover, .btn-pc-sign-white:hover, .btn-phone-sign-white:hover{
+    background: #AFAFAF;
+}
+.btn-linear-orange{
+    width: max-content;
+    /* 不能有padding */
+    border: solid 1px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient( #09005F,  #09005F),linear-gradient(45deg, #F66F40,#FFD38D);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.btn-tag{
+    width: max-content;
+    height: 22px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid #F4EDED;
+    color:#F4EDED;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 6px;
+    letter-spacing: 2.5px;
+}
+.btn-phone-orange{
+    width: max-content;
+    padding: 2px 22px;
+    border-radius: 20px;
+    height: 29px;
+    color:#240173;
+    background: linear-gradient(226.02deg, #FFDA93 4.21%, #F56638 99.47%);
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+.btn-phone-big-orange{
+    width: max-content;
+    padding: 10px 40px;
+    border-radius: 20px;
+    height: 36px;
+    color:#240173;
+    background: linear-gradient(226.02deg, #FFDA93 4.21%, #F56638 99.47%);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+.btn-phone-white{
+    width: max-content;
+    padding: 2px 22px;
+    border-radius: 20px;
+    height: 29px;
+    color:#F4EDED;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+.btn-phone-sign-white{
+    width: max-content;
+    padding: 10px 40px;
+    border-radius: 20px;
+    height: 36px;
+    color:#240173;
+    background: #F4EDED;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+.btn-phone-big-white{
+    width: max-content;
+    padding: 10px 40px;
+    border-radius: 20px;
+    height: 36px;
+    color:#F4EDED;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
+.btn-phone-purple{
+    width: max-content;
+    padding: 7px 20px;
+    border-radius: 8px;
+    height: 30px;
+    color:#F4EDED;
+    background: linear-gradient(226.02deg, #FF67F9 4.21%, #5338F5 99.47%);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+}
