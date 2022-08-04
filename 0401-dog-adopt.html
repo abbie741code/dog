@@ -157,12 +157,16 @@
             background-image: url(./images/0330\ bg\ section2.png);
         }
 
+        .allcardwrap{
+            padding: 4% 5px;
+
+        }
 
         .card {
             background-color: #d2c4b3;
             height: auto;
             border-radius: 10%;
-            margin: 20px 5px 20px;
+            margin: 50px 5px 50px;
 
 
         }
@@ -203,6 +207,8 @@
 
         .card-img-wrap img {
             border-radius: 10%;
+            object-fit: cover;
+          background-position: center center;
 
         }
 
@@ -323,6 +329,9 @@
             font-weight: 400;
 
         }
+        .card {
+            margin: 10px;
+        }
 
 
 
@@ -414,9 +423,10 @@
             /* min-width: 500px; */
 
         }
-        .btn-secondary{
+        .btn-secondary:hover{
             /* width: 100%; */
-           margin: 40px auto;
+           
+           background-color: rgb(147, 144, 144);
         }
        
 
@@ -442,8 +452,7 @@
             font-size: 25px;
         }
 
-
-
+       
 
 
 
@@ -1115,6 +1124,7 @@
                 margin-top: 25%;
                 margin-bottom: 25%;
             }
+            
 
         }
 
@@ -1284,9 +1294,9 @@
 
             <!-- ------------------第二頁(小卡片區)--------------------->
             <div class="bigbannerwidth mb-3">
-                <div class="row controlbannerpic-width section2-bg text-center">
+                <div class="row controlbannerpic-width section2-bg text-center allcardwrap">
                     <!-- 第一個卡片 (最大時各拿3等分-顯示4塊; 中間尺寸拿66-顯示2塊) -->
-                    <div class="col-lg-3 col-sm-6 mb-2">
+                    <div class="col-lg-3 col-sm-6 mb-2 ">
                         <div class="card">
                             <div class="card-top-img"></div>
                             <div class="card-img-wrap">
@@ -1295,7 +1305,7 @@
                             <div class="card-body">
                                 <h6 class="card-title">小太陽</h6>
                                 <p class="card-text">小太陽6個月，活潑可愛，親人親狗，半夜會自己偷偷爬上床半夜會自己偷偷爬上床替主人暖被哦... </p>
-                                <a href="#" class=" btn btn-hovercolor"> <i class="fa-solid fa-dog"></i> 前往贊助</a>
+                                <a href="#" class=" btn btn-hovercolor"> <i class="fa-solid fa-dog"></i> 觀看更多</a>
                             </div>
                         </div>
                     </div>
@@ -1310,7 +1320,7 @@
                             <div class="card-body">
                                 <h6 class="card-title">亨利</h6>
                                 <p class="card-text">Henry適應力好，很喜歡草地，每次散步時都第一時間衝去草地上翻滾了。對於基本服從都相當穩定... </p>
-                                <a href="#" class="btn btn-hovercolor"><i class="fa-solid fa-dog"></i> 前往贊助</a>
+                                <a href="#" class="btn btn-hovercolor"><i class="fa-solid fa-dog"></i> 觀看更多</a>
                             </div>
                         </div>
                     </div>
@@ -1325,7 +1335,7 @@
                             <div class="card-body">
                                 <h6 class="card-title">肥妹</h6>
                                 <p class="card-text">肥妹是救援的狗媽媽的小孩，在兩個月大時送出了，但一歲後卻被用各種理由退養了回來。肥妹個性親人... </p>
-                                <a href="#" class="btn btn-hovercolor"><i class="fa-solid fa-dog"></i> 前往贊助</a>
+                                <a href="#" class="btn btn-hovercolor"><i class="fa-solid fa-dog"></i> 觀看更多</a>
                             </div>
                         </div>
                     </div>
@@ -1340,7 +1350,7 @@
                             <div class="card-body">
                                 <h6 class="card-title">金鑽</h6>
                                 <p class="card-text">金鑽，目前1歲，可以說是疫情的受害者。曾經有一個愛她的家庭預定要領養她，也和當時的中途家庭約... </p>
-                                <a href="#" class="btn btn-hovercolor"><i class="fa-solid fa-dog"></i> 前往贊助</a>
+                                <a href="#" class="btn btn-hovercolor"><i class="fa-solid fa-dog"></i> 觀看更多</a>
                             </div>
                         </div>
                     </div>
@@ -1433,7 +1443,7 @@
             </div>
             <!-- -----------------------------第四頁（輪播牆）----------------------------->
 
-            <div class="bigbannerwidth mb-3 ">
+            <div class="bigbannerwidth mb-3 height-100vh ">
                 <div class="controlbannerpic-width ">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
