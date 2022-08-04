@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog-adopt</title>
-
+    
     <!-- 套用fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -120,7 +120,7 @@
             padding: 10% 5% 10% 5%;
             font-family: 'Noto Sans TC', sans-serif;
             position: relative;
-
+            
 
         }
 
@@ -146,7 +146,7 @@
             margin-bottom: 25%;
         }
 
-
+       
 
 
 
@@ -169,7 +169,7 @@
 
         .card-top-img {
             background-image: url(./images/0330\ new\ logo.png);
-            min-height: 130px;
+            min-height: 200px;
             width: 100%;
             border-radius: 10%;
             background-position: center;
@@ -221,7 +221,7 @@
             background-color: #f1efee;
             /* padding: 20px; */
             border-radius: 18%;
-            margin: 3%;
+            margin-top: 3%;
             /* margin-bottom: 5%; */
             padding: 15px 25px 15px;
 
@@ -289,7 +289,7 @@
         .bigbannerwidth {
             background-color: #edebe9;
             width: 100%;
-
+            
             display: flex;
             justify-content: center;
 
@@ -342,16 +342,12 @@
             margin: 30px auto 30px;
 
         }
-        h1{
-            font-size: 28px;
-        }
 
-        /* 第三夜花干區照片調整*/
+
         .img-wrap {
-            width: 80%;
+            width: 100%;
             overflow: hidden;
             border-radius: 10%;
-            margin: 0 auto;
         }
 
         .img-wrap:hover {
@@ -403,27 +399,9 @@
         .text-h-wrap-wrap {
             font-size: 16px;
         }
-
-        .margin-for-btn {
+        .margin-for-btn{
             margin-top: 12px;
         }
-
-        /*  第三頁按扭曲調整*/
-        .btn-wrap {
-            /* outline: #5eede6 5px solid; */
-            /* min-width: 500px; */
-
-        }
-        .btn-secondary{
-            /* width: 100%; */
-           margin: 40px auto;
-        }
-       
-
-
-
-        /* ---?----- */
-
 
         .carousel-control-next {
             top: 50%;
@@ -451,10 +429,10 @@
 
 
 
-
-
         /* -----調整下拉式選單----*/
-        .nav-center-content {}
+        .nav-center-content{
+
+        }
 
 
         /* -----避免css重複影響到手機版的css,因此web的css下了第二種版本----*/
@@ -515,12 +493,11 @@
             align-items: center;
             padding: 60px 0px;
             font-size: 20px;
-
+          
         }
-
         .nav-right-content2 a {
-
-            border-bottom: 1px solid;
+      
+            border-bottom:1px solid;
             margin: 0 0 10px;
         }
 
@@ -541,9 +518,9 @@
             /* width: 10%;
             height: 10%; */
             position: absolute;
-
-            top: 80%;
-            left: 50%;
+        
+            top:  80%;
+            left:50%;
 
             /* outline: #3b3174 solid 5px; */
         }
@@ -602,7 +579,7 @@
             width: 22.5vmax;
             height: 8.25vmax;
             z-index: 999;
-            right: 30px;
+            right:30px;
             bottom: 30px;
         }
 
@@ -710,7 +687,7 @@
             border-top-right-radius: 0vmax;
             border-bottom-right-radius: 3.3vmax;
             border-bottom-left-radius: 3.3vmax;
-            background-color: #A08B7E;
+            background-color:#A08B7E;
         }
 
         .dog__ear-l {
@@ -1031,7 +1008,7 @@
         /* ----------手機版時 web的nav不可以出現------------- */
         @media screen and (max-width:500px) {
 
-
+           
 
             /* 🌟要包在這層才對 不然內容會都無法顯現 */
             .row2 {
@@ -1086,35 +1063,34 @@
                 font-family: 'Noto Sans TC', sans-serif
             }
 
-            /* 
             .bannerwithdog:hover {
                 background-image: url(./images/image1.png), url(./images/image2.png), url(./images/image3.png), url(./images/0328-bacjground\ color\ psd.png);
                 background-position: 10% 75%, center 75%, 89% 75%, center center;
                 background-size: 30%, 30%, 30%, auto;
                 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-            } */
-
+            }
+            
             .banner-pic {
-                width: 100%;
-                height: 667x;
-            }
+            width: 100%;
+            height: 667x;
+        }
 
-            .dog-wrap {
-                /* width: 10%;
+        .dog-wrap {
+            /* width: 10%;
             height: 10%; */
-                position: absolute;
-                top: 726px;
-                /* left:50%; */
-                /* outline: #3b3174 solid 5px; */
-            }
+            position: absolute;
+            top:726px;
+            /* left:50%; */
+            /* outline: #3b3174 solid 5px; */
+        }
 
-
-            .banner-btn {
-                margin: 0 auto;
-                text-align: center;
-                margin-top: 25%;
-                margin-bottom: 25%;
-            }
+        
+        .banner-btn {
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 25%;
+            margin-bottom: 25%;
+        }
 
         }
 
@@ -1155,7 +1131,7 @@
                 width: 100%;
             }
 
-
+            
 
 
             /* ------第三頁--------- */
@@ -1370,17 +1346,20 @@
                                         <p><i class="fa-solid fa-bone"></i> 狀態：預防針已施打、已結紮、已植晶片</p>
                                         <p><i class="fa-solid fa-bone"></i>
                                             飼主原本想讓花干幫忙看管山上的雞，但因為不一定每天都會上山去，所以不僅沒時間照料狗狗，籠內大多時候更堆積著小山一般高的屎尿，水碗食碗也非常髒。</p>
+                                        <br>
                                         <p><i class="fa-solid fa-bone"></i> 在嘉義縣家畜疾病防治所的介入後，協助我們與飼主周旋商量，最終終於同意放棄飼養。</p>
                                         <p><i class="fa-solid fa-paw"></i> 領養請洽：台灣愛毛孩園</p>
+                                        
                                     </div>
 
                                     <div class="btn-wrap d-flex justify-content-center margin-for-btn">
                                         <div class="left-btn mr-5">
-                                            <button type="button" class="btn btn-secondary text-nowrap">捐贈飼料</button>
+                                            <button type="button" class="btn btn-secondary">捐贈飼料</button>
                                         </div>
                                         <div class="right-btn">
-                                            <button type="button" class="btn btn-secondary text-nowrap">預約見面</button>
+                                            <button type="button" class="btn btn-secondary">預約見面</button>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -1396,35 +1375,28 @@
                                     <i class="fa-solid fa-bone"></i>
                                     <h1>珍妮絲</h1>
                                 </div>
-
-
                                 <div class="wrap-content">
                                     <div class="text-p-wrap">
                                         <p><i class="fa-solid fa-bone"></i> 性別：女</p>
-                                        <p><i class="fa-solid fa-bone"></i> 年齡：11個月</p>
-                                        <p><i class="fa-solid fa-bone"></i> 體型：愛撒嬌/小型犬</p>
+                                        <p><i class="fa-solid fa-bone"></i> 年齡：9週</p>
+                                        <p><i class="fa-solid fa-bone"></i> 體型：中型，他是裡面體型最小的</p>
                                         <p><i class="fa-solid fa-bone"></i> 狀態：預防針已施打、已結紮、已植晶片</p>
+                                        <p><i class="fa-solid fa-bone"></i> 儘管珍妮絲是所有狗狗裡面最弱小的，但他非常的外向也有點粗魯！</p>
                                         <p><i class="fa-solid fa-bone"></i>
-                                            飼主原本想讓花干幫忙看管山上的雞，但因為不一定每天都會上山去，所以不僅沒時間照料狗狗，籠內大多時候更堆積著小山一般高的屎尿，水碗食碗也非常髒。</p>
-                                        <p><i class="fa-solid fa-bone"></i> 在嘉義縣家畜疾病防治所的介入後，協助我們與飼主周旋商量，最終終於同意放棄飼養。</p>
+                                            不論是誰在玩，他一定要搶到中間的位置，他也不會讓自己被比較大隻的狗欺負，或是搶走他的玩具和點心，是非常有個性的狗狗！喜歡撒嬌也喜歡被擁抱。珍妮絲非常活潑可愛，養到她保證每天都很開心唷！
+                                        </p>
                                         <p><i class="fa-solid fa-paw"></i> 領養請洽：台灣愛毛孩園</p>
-
                                     </div>
 
-                                   
-                                    <div class="btn-wrap d-flex justify-content-center margin-for-btn">
+                                    <div class="btn-wrap d-flex justify-content-center ">
                                         <div class="left-btn mr-5">
-                                            <button type="button" class="btn btn-secondary text-nowrap">捐贈飼料</button>
+                                            <button type="button" class="btn btn-secondary">捐贈飼料</button>
                                         </div>
                                         <div class="right-btn">
-                                            <button type="button" class="btn btn-secondary text-nowrap">預約見面</button>
+                                            <button type="button" class="btn btn-secondary">預約見面</button>
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
 
                             </div>
                         </div>
